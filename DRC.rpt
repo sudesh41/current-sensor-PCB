@@ -1,0 +1,139 @@
+** Drc report for current_sensor.kicad_pcb **
+** Created on 2025-05-26T14:36:32+0530 **
+
+** Found 32 DRC violations **
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(156.2400 mm, 122.5000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.3000 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(156.2400 mm, 120.2000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.8991 mm
+    @(154.1900 mm, 118.1500 mm): PTH pad 1 [Net-(U1-D26)] of R4
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(156.2400 mm, 127.2600 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 4.7600 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(152.5000 mm, 116.4600 mm): Track [Net-(J2-Pin_1)] on B.Cu, length 2.3900 mm
+    @(154.1900 mm, 118.1500 mm): PTH pad 1 [Net-(U1-D26)] of R4
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(161.8100 mm, 115.0000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 3.1500 mm
+    @(161.8100 mm, 115.0000 mm): PTH pad 2 [Net-(U1-D26)] of R3
+[shorting_items]: Items shorting two nets (nets Net-(D1-A) and unconnected-(U1-D25-Pad23))
+    Local override; error
+    @(107.1000 mm, 102.1600 mm): Track [Net-(D1-A)] on F.Cu, length 5.7815 mm
+    @(107.1000 mm, 102.1600 mm): PTH pad 23 [unconnected-(U1-D25-Pad23)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(107.1000 mm, 104.7000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 6.5054 mm
+    @(107.1000 mm, 104.7000 mm): PTH pad 24 [Net-(U1-D26)] of U1
+[shorting_items]: Items shorting two nets (nets Net-(J2-Pin_1) and Net-(U1-D26))
+    Local override; error
+    @(156.2400 mm, 122.5000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 6.1518 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(158.0000 mm, 111.8500 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(147.0000 mm, 80.8600 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(139.0000 mm, 79.7300 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(158.0000 mm, 115.0000 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(155.4900 mm, 122.5000 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(163.5000 mm, 127.0000 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(145.8000 mm, 120.8000 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(154.7500 mm, 81.0000 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(161.5000 mm, 79.0100 mm): PCB Text '${REFERENCE}' on F.Fab
+[unresolved_variable]: Unresolved text variable
+    Local override; error
+    @(158.0000 mm, 118.1500 mm): PCB Text '${REFERENCE}' on F.Fab
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(156.2400 mm, 120.2000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.8991 mm
+    @(154.1900 mm, 118.1500 mm): PTH pad 1 [Net-(U1-D26)] of R4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(161.8100 mm, 115.0000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 3.1500 mm
+    @(161.8100 mm, 115.0000 mm): PTH pad 2 [Net-(U1-D26)] of R3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(156.2400 mm, 122.5000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.3000 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(156.2400 mm, 127.2600 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 4.7600 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(152.5000 mm, 116.4600 mm): Track [Net-(J2-Pin_1)] on B.Cu, length 2.3900 mm
+    @(154.1900 mm, 118.1500 mm): PTH pad 1 [Net-(U1-D26)] of R4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(107.1000 mm, 102.1600 mm): Track [Net-(D1-A)] on F.Cu, length 5.7815 mm
+    @(107.1000 mm, 102.1600 mm): PTH pad 23 [unconnected-(U1-D25-Pad23)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(107.1000 mm, 104.7000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 6.5054 mm
+    @(107.1000 mm, 104.7000 mm): PTH pad 24 [Net-(U1-D26)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(156.2400 mm, 122.5000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 6.1518 mm
+    @(156.2400 mm, 122.5000 mm): PTH pad 2 [Net-(U1-D26)] of C2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.7000 mm, 83.1200 mm): PCB Text 'K' on F.Silkscreen
+    @(159.7000 mm, 83.1200 mm): PCB Text 'K' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.0000 mm, 116.2300 mm): Reference 'R4'
+    @(156.0800 mm, 115.9200 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.0800 mm, 119.0700 mm): Segment on F.Silkscreen
+    @(155.4900 mm, 119.2500 mm): Reference 'C2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.0800 mm, 117.2300 mm): Segment on F.Silkscreen
+    @(155.4900 mm, 119.2500 mm): Reference 'C2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.0000 mm, 113.0800 mm): Reference 'R3'
+    @(156.0800 mm, 112.7700 mm): Segment on F.Silkscreen
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0700 mm, 95.5800 mm): PTH pad 11 [unconnected-(U2-DTR-Pad11)] of U2
+    @(100.0000 mm, 67.5000 mm): Rectangle [unconnected-(U2-DTR-Pad11)] on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.5000 mm, 116.4600 mm): Track [Net-(J2-Pin_1)] on B.Cu, length 2.3900 mm
+    @(156.2400 mm, 120.2000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.8991 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 109.3000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 22.7000 mm
+    @(107.1000 mm, 119.9400 mm): PTH pad 30 [Net-(J2-Pin_1)] of U1
+
+** Found 0 Footprint errors **
+
+** End of Report **
